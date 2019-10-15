@@ -1,6 +1,6 @@
 class HeroModel {
   String name;
-  bool isFavorte;
+  bool isFavorite;
 
-  HeroModel({this.name, this.isFavorte});
+  HeroModel({this.name, this.isFavorite = false});
 }
